@@ -756,6 +756,7 @@ height: 57px;
   float: left;
   top: 178px;
   left: 114px;
+  z-index: 100;
 }
 .contactme:hover{
   

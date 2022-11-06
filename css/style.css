@@ -841,7 +841,7 @@ text-decoration: none;
   border-radius: 40px;
   position: relative;
   top: 932px;
-  left: 140px;
+  margin: 0 auto;
   align-items: center;
   text-align: center;
 }
@@ -909,7 +909,7 @@ footer h3{
   position: relative;
   align-items: center;
   top: 670px;
-  left: 144px;
+  margin: 0 auto;
   border-radius: 20px;
   text-align: center;
   display: flex;
@@ -940,7 +940,211 @@ footer h3{
     position: relative;
     top: -45px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+  body{
+    overflow-x: hidden;
+  }
+  .page__style .btn_nav {
+    background: none;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 12px;
+    position: relative;
+    left: 5px;
+    top: -82px;
+    z-index: 100;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding: 8px 0px;
+    width: 90px;
+}
+.social-media-list li {
+  position: absolute;}
+  .li1 {
+    left: 30px;
+    z-index: 100;
+    top: 250px;
+}
+.li2 {
+  left: 114px;
+  top: 250px;
+  z-index: 100;
+}
+.li3 {
+  left: 193px;
+  top: 250px;
+  z-index: 100;
+}
+.li4 {
+  left: 272px;
+  top: 251px;
+  z-index: 100;
+}
+.hi {
+  text-align: left;
+  line-height: 2;
+  font-family: 'Kalam';
+  font-size: 30px;
+  float: left;
+  margin-left: 34px;
+  margin-top: -4px;
+  font-weight: 300;}
+  .name {
+    font-family: 'Kalam';
+    font-size: 40px;
+    color: #00c7c7;
+    position: relative;
+    float: left;
+    left: -118px;
+    top: 61px;
+}
+.hello {
+  position: absolute;
+  top: 212px;
+  left: 37px;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Kalam';
+}
+.contactme {
+ 
+  background-color: #00c7c7;
+  font-family: 'Poppins';
+  color: #131418;
+  height: 40px;
+  width: 151px;
+  border-radius: 39px;
+  position: relative;
+  float: left;
+  top: 140px;
+  
+  left: -121px;
+   ;
+}
+.me {
+  height: 388px;
+  width: auto;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  left: 90px;
+}
+.aboutme {
+  width: 334px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Montserrat';
+  text-align: left;
+  position: relative;
+  top: 246px;
+  left: 26px;
+  z-index: 100;
+  line-height: 1.5;
+}
+.contact {
+  background-color: #6e07f3;
+  width: 318px;
+  align-self: center;
+  height: 247px;
+  border-radius: 40px;
+  position: relative;
+  top: 932px;
+  margin: 0 auto;
+  /* left: 35px; */
+  align-items: center;
+  text-align: center;
+}
+.subscribe_form {
+  max-width: 130px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0px 2px 5px 0px rgb(10 6 20 / 24%);
+  /* margin: 0 auto; */
+  left: 55px;
+  top: -8px;
+  z-index: 100;
+  position: relative;
+}
+.contact h2 {
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  padding: 40px;
+  line-height: 1.5;
+}.skillbox {
+  background-color: #fff;
+  height: 752px;
+  width: 351px;
+  position: relative;
+  align-items: center;
+  top: 709px;
+  margin: 0 auto;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  
+}
+.logoback {
+  background-color: #00c7c7;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  left: 46px;
+}
+.skillsect2 {
+  width: 454px;
+  padding: 74px;
+  border-right: 1px solid #ccc;
+  position: relative;
+  top: 812px;
+  left: -334px;
+  background: #fff;
+  border-radius: 15px;
+}
+.skillsect3 {
+  width: 529px;
+  padding: 95px;
+  position: relative;
+  top: 1727px;
+  left: -673px;
+  border-radius: 15px;
+  background: #fff;
+}
+.container1{
+  display: inline-block;
+}
+footer{
+  top: 2500px;
+}
+.contact{
+  top:2673px ;
+}
+.project{
+  margin: 8px;
+}
+.projectsection{
+  position: relative;
+  top: 1857px;
+}
+
+
+}
+@media screen and (max-width: 380px) {
+  body{
+    overflow-x: hidden;
+  }
   .page__style .btn_nav {
     background: none;
     border-radius: 30px;
@@ -1028,5 +1232,114 @@ footer h3{
   left: 32px;
    ;
 }
+.me {
+  height: 388px;
+  width: auto;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  left: 90px;
+}
+.aboutme {
+  width: 334px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Montserrat';
+  text-align: left;
+  position: relative;
+  top: 246px;
+  left: 26px;
+  z-index: 100;
+  line-height: 1.5;
+}
+.contact {
+  background-color: #6e07f3;
+  width: 318px;
+  align-self: center;
+  height: 247px;
+  border-radius: 40px;
+  position: relative;
+  top: 932px;
+  margin: 0 auto;
+  /* left: 35px; */
+  align-items: center;
+  text-align: center;
+}
+.subscribe_form {
+  max-width: 130px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0px 2px 5px 0px rgb(10 6 20 / 24%);
+  /* margin: 0 auto; */
+  left: 55px;
+  top: -8px;
+  z-index: 100;
+  position: relative;
+}
+.contact h2 {
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  padding: 40px;
+  line-height: 1.5;
+}.skillbox {
+  background-color: #fff;
+  height: 752px;
+  width: 351px;
+  position: relative;
+  align-items: center;
+  top: 709px;
+  margin: 0 auto;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  
+}
+.logoback {
+  background-color: #00c7c7;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  left: 46px;
+}
+.skillsect2 {
+  width: 454px;
+  padding: 74px;
+  border-right: 1px solid #ccc;
+  position: relative;
+  top: 812px;
+  left: -334px;
+  background: #fff;
+  border-radius: 15px;
+}
+.skillsect3 {
+  width: 529px;
+  padding: 95px;
+  position: relative;
+  top: 1727px;
+  left: -673px;
+  border-radius: 15px;
+  background: #fff;
+}
+.container1{
+  display: inline-block;
+}
+footer{
+  top: 2500px;
+}
+.contact{
+  top:2673px ;
+}
+.project{
+  margin: 8px;
+}
+.projectsection{
+  position: relative;
+  top: 1857px;
+}
+
 
 }
+

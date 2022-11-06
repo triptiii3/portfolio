@@ -940,7 +940,7 @@ footer h3{
     position: relative;
     top: -45px;
 }
-@media screen and (min-width: 370px) {
+@media screen and (max-width: 400px) {
   .page__style .btn_nav {
     background: none;
     border-radius: 30px;

@@ -865,7 +865,7 @@ footer h3{
   font-family: 'Poppins';
   font-size: 20px;
   position: relative;
-  top: 16px;
+  top: 180px;
 }
 
 .container1 .project:hover {
@@ -1144,7 +1144,9 @@ footer{
   position: relative;
   top: 1857px;
 }
-
+footer h3{
+  font-size: 15px;
+}
 
 }
 @media screen and (max-width: 380px) {
@@ -1206,6 +1208,9 @@ footer{
   left: 272px;
   top: 251px;
   z-index: 100;
+}
+footer h3{
+  font-size: 15px;
 }
 .hi {
   text-align: left;
@@ -1390,6 +1395,9 @@ footer{
     margin-bottom: 20px;
     padding: 8px 0px;
     width: 85px;
+}
+footer h3{
+  font-size: 15px;
 }
 .container1 .project {
   padding: 1.8rem;
